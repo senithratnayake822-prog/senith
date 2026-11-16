@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundable - Lost something / Found something</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/nav-footer.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <div class="navbar-inner">
+
+      <a href="#" class="logo">
+        <img src="images/uni-logo.png" alt="" class="logo-icon">
+        <span class="logo-text">Found<span class="orange">able</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Report <i class="fa-solid fa-chevron-down arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="/report-found.html">Report found item</a></li>
+              <li><a href="/report-lost.html">Report lost item</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/claim-item.html">Claim item</a></li>
+          <li><a href="/about.html">About us</a></li>
+        </ul>
+      </nav>
+
+      <a href="/contact.html" class="contact-btn">Contact <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <img src="images/hero-glow.png" alt="" class="hero-glow">
+
+      <div class="hero-text">
+        <h1>Lost<br>something /<br><span class="orange">Found</span><br>something.</h1>
+        <p>use Foundable to find your valuables</p>
+      </div>
+
+      <img src="images/hero-man.png" alt="Student checking phone while holding a wallet" class="hero-man">
+    </div>
+    <div class="hero-bar"></div>
+  </section>
+
+  <!-- ========== ITEMS ========== -->
+  <section class="items">
+    <div class="filters">
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      </div>
+
+      <div class="select-box">
+        <select class="filter-select">
+          <option>All</option>
+          <option>Found items</option>
+          <option>Lost items</option>
+        </select>
+        <i class="fa-solid fa-chevron-down select-icon"></i>
+      </div>
+    </div>
+
+    <div class="cards">
+
+      <!-- Card (found) -->
+      <div class="card">
+        <div class="card-img">
+          <img src="/images/item-images/bag.jpeg" alt="Water bottle">
+          <span class="item-code">item code: F005</span>
+        </div>
+        <div class="card-body">
+          <p>Found location : science canteen</p>
+          <p>Found date : 2026 Nov 11</p>
+          <p>Found time : around 2pm</p>
+          <p>Description: water bottle with key chain attached</p>
+        </div>
+        <a href="/claim-item.html" class="card-btn claim">claim</a>
+      </div>
+
+      <!-- Card (lost) -->
+      <div class="card">
+        <div class="card-img">
+          <img src="/images/item-images/bottle.png" alt="Water bottle">
+          <span class="item-code">item code: F011</span>
+        </div>
+        <div class="card-body">
+          <p>Lost location : science canteen</p>
+          <p>Lost date : 2026 Nov 11</p>
+          <p>Lost time : around 2pm</p>
+          <p>Description: water bottle with key chain attached</p>
+        </div>
+        <a href="/claim-item.html" class="card-btn found">Found</a>
+      </div>
+
+      <!-- Card (found) -->
+      <div class="card">
+        <div class="card-img">
+          <img src="/images/item-images/wallet.jpeg" alt="Water bottle">
+          <span class="item-code">item code: F023</span>
+        </div>
+        <div class="card-body">
+          <p>Found location : science canteen</p>
+          <p>Found date : 2026 Nov 11</p>
+          <p>Found time : around 2pm</p>
+          <p>Description: water bottle with key chain attached</p>
+        </div>
+        <a href="/claim-item.html" class="card-btn claim">claim</a>
+      </div>
+
+      <!-- Card (found) -->
+      <div class="card">
+        <div class="card-img">
+          <img src="images/item-images/umbrella.png" alt="Water bottle">
+          <span class="item-code">item code: F004</span>
+        </div>
+        <div class="card-body">
+          <p>Found location : science canteen</p>
+          <p>Found date : 2026 Nov 11</p>
+          <p>Found time : around 2pm</p>
+          <p>Description: water bottle with key chain attached</p>
+        </div>
+        <a href="/claim-item.html" class="card-btn claim">claim</a>
+      </div>
+
+      <!-- Card (lost) -->
+      <div class="card">
+        <div class="card-img">
+          <img src="images/item-images/pencil-case.png" alt="Water bottle">
+          <span class="item-code">item code: F022</span>
+        </div>
+        <div class="card-body">
+          <p>Lost location : science canteen</p>
+          <p>Lost date : 2026 Nov 11</p>
+          <p>Lost time : around 2pm</p>
+          <p>Description: water bottle with key chain attached</p>
+        </div>
+        <a href="/claim-item.html" class="card-btn found">Found</a>
+      </div>
+
+      <!-- Card (found) -->
+      <div class="card">
+        <div class="card-img">
+          <img src="/images/item-images/book.png" alt="Water bottle">
+          <span class="item-code">item code: F008</span>
+        </div>
+        <div class="card-body">
+          <p>Found location : science canteen</p>
+          <p>Found date : 2026 Nov 11</p>
+          <p>Found time : around 2pm</p>
+          <p>Description: water bottle with key chain attached</p>
+        </div>
+        <a href="/claim-item.html" class="card-btn claim">claim</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+
+      <div class="footer-left">
+        <a href="#" class="logo">
+          <img src="images/uni-logo.png" alt="" class="logo-icon">
+          <span class="logo-text">Found<span class="orange">able</span></span>
+        </a>
+        <p>help students across the university found their lost valuables</p>
+
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Our work</a></li>
+          <li><a href="#">Testimonial</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <h3>Subscribe to our community</h3>
+        <p>To get help others find their lost items quickly</p>
+        <form class="subscribe">
+          <input type="email" aria-label="Email address">
+          <button type="submit">Susbcribe</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright 2026 &copy; Foundable - All Right Reserved.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
